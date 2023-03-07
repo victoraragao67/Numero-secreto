@@ -1,0 +1,49 @@
+:root {
+--bg-color: #F8EAD8;
+--primary-color: #A7727D;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+.mensagem {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.box {
+    border: 1px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.btn-jogar {
+    padding: 1rem;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
